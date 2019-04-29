@@ -1,0 +1,307 @@
+  UID   PID  PPID   C STIME   TTY           TIME CMD
+    0     1     0   0 11:51AM ??         0:05.59 /sbin/launchd
+    0    40     1   0 11:51AM ??         0:00.21 /usr/sbin/syslogd
+    0    41     1   0 11:51AM ??         0:00.57 /usr/libexec/UserEventAgent (System)
+    0    44     1   0 11:51AM ??         0:00.03 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+    0    45     1   0 11:51AM ??         0:06.55 /usr/libexec/kextd
+    0    46     1   0 11:51AM ??         0:02.81 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+    0    48     1   0 11:51AM ??         0:00.10 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+   55    51     1   0 11:51AM ??         0:00.10 /System/Library/CoreServices/appleeventsd --server
+    0    52     1   0 11:51AM ??         0:00.33 /usr/sbin/systemstats --daemon
+    0    54     1   0 11:51AM ??         0:00.96 /usr/libexec/configd
+    0    55     1   0 11:51AM ??         0:26.99 /Library/Application Support/AirWatch/airwatchd
+    0    56     1   0 11:51AM ??         0:00.79 /System/Library/CoreServices/powerd.bundle/powerd
+    0    59     1   0 11:51AM ??         0:00.92 /usr/libexec/logd
+    0    60     1   0 11:51AM ??         0:00.02 /usr/libexec/keybagd -t 15
+    0    61     1   0 11:51AM ??         0:57.04 /opt/cisco/amp/ampdaemon
+    0    67     1   0 11:51AM ??         0:07.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+    0    69     1   0 11:51AM ??         0:00.47 /Library/Application Support/AirWatch/awcmd
+  240    70     1   0 11:51AM ??         0:00.03 /System/Library/CoreServices/iconservicesd
+    0    71     1   0 11:51AM ??         0:00.41 /usr/libexec/diskarbitrationd
+    0    75     1   0 11:51AM ??         0:00.07 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+    0    76     1   0 11:51AM ??         0:00.31 /usr/libexec/coreduetd
+    0    79     1   0 11:51AM ??         0:03.11 /usr/libexec/opendirectoryd
+    0    81     1   0 11:51AM ??         0:00.84 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+    0    82     1   0 11:51AM ??         0:00.02 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+    0    83     1   0 11:51AM ??         0:01.03 /System/Library/CoreServices/launchservicesd
+  266    84     1   0 11:51AM ??         0:00.08 /usr/libexec/timed
+    0    85     1   0 11:51AM ??         0:01.23 /usr/sbin/securityd -i
+  213    86     1   0 11:51AM ??         0:00.06 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+  205    88     1   0 11:51AM ??         0:01.96 /usr/libexec/locationd
+    0    90     1   0 11:51AM ??         0:00.02 autofsd
+  244    91     1   0 11:51AM ??         0:00.05 /usr/libexec/displaypolicyd -k 1
+    0    92     1   0 11:51AM ??         0:00.50 /usr/libexec/dasd
+    0    94     1   0 11:51AM ??         0:00.43 /Library/Application Support/Checkpoint/Endpoint Connect/TracSrvWrapper
+    0    95     1   0 11:51AM ??         0:00.73 /usr/libexec/PerfPowerServices
+476547026    97     1   0 11:51AM ??         0:00.93 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+    0    98     1   0 11:51AM ??         0:00.05 /System/Library/CoreServices/logind
+    0    99     1   0 11:51AM ??         0:00.06 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+    0   100     1   0 11:51AM ??         0:00.02 /usr/sbin/KernelEventAgent
+    0   102     1   0 11:51AM ??         0:00.30 /usr/sbin/bluetoothd
+  261   103     1   0 11:51AM ??         0:11.68 /usr/libexec/hidd
+    0   104     1   0 11:51AM ??         0:05.88 /usr/libexec/sandboxd
+    0   105     1   0 11:51AM ??         0:00.33 /usr/libexec/corebrightnessd --launchd
+    0   106     1   0 11:51AM ??         0:00.15 /usr/libexec/AirPlayXPCHelper
+    0   107     1   0 11:51AM ??         0:00.71 /usr/libexec/amfid
+    0   108     1   0 11:51AM ??         0:01.22 /usr/sbin/notifyd
+  241   109     1   0 11:51AM ??         0:00.25 /usr/sbin/distnoted daemon
+    0   110     1   0 11:51AM ??         0:01.48 /usr/sbin/cfprefsd daemon
+    0   112     1   0 11:51AM ??         0:01.40 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+    0   113     1   0 11:51AM ??         0:00.65 /System/Library/CoreServices/coreservicesd
+    0   125     1   0 11:51AM ??         0:07.44 /usr/libexec/trustd
+    0   129     1   0 11:51AM ??         0:00.03 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+  202   132     1   0 11:51AM ??         0:00.30 /usr/sbin/coreaudiod
+  259   133     1   0 11:51AM ??         0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+    0   134     1   0 11:51AM ??         0:00.54 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+    0   135     1   0 11:51AM ??         0:00.04 aslmanager
+    0   136     1   0 11:51AM ??         0:00.11 /usr/libexec/nehelper
+  202   137     1   0 11:51AM ??         0:00.07 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+    0   141     1   0 11:51AM ??         0:00.48 /usr/sbin/ocspd
+    0   142     1   0 11:51AM ??         0:00.85 /usr/libexec/mobileassetd
+  242   149     1   0 11:51AM ??         0:00.31 /usr/libexec/nsurlsessiond --privileged
+   24   154     1   0 11:51AM ??         0:00.54 /usr/libexec/symptomsd
+    0   156     1   0 11:51AM ??         0:00.27 /usr/libexec/lsd runAsRoot
+   65   157     1   0 11:51AM ??         0:00.62 /usr/sbin/mDNSResponder
+    0   159     1   0 11:51AM ??         0:00.07 /usr/sbin/mDNSResponderHelper
+    0   160     1   0 11:51AM ??         0:01.40 /usr/libexec/syspolicyd
+    0   162     1   0 11:51AM ??         0:00.10 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+    0   164     1   0 11:51AM ??         0:00.03 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+    0   165     1   0 11:51AM ??         0:00.03 /usr/libexec/apfsd
+    0   167     1   0 11:51AM ??         0:00.06 /usr/libexec/usbd
+  262   168     1   0 11:51AM ??         0:00.07 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+   88   169     1   0 11:51AM ??         1:11.18 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    0   170     1   0 11:51AM ??         0:01.05 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+    0   192     1   0 11:51AM ??         0:00.01 /usr/libexec/watchdogd
+    0   197     1   0 11:51AM ??         0:01.95 /usr/libexec/airportd
+    0   201     1   0 11:51AM ??         0:00.03 /usr/libexec/thermald
+  243   202     1   0 11:51AM ??         0:00.14 /usr/libexec/nsurlstoraged --privileged
+    0   204     1   0 11:51AM ??         0:00.04 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+    0   205     1   0 11:51AM ??         0:00.06 /usr/libexec/secinitd
+  202   206     1   0 11:51AM ??         0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+    0   207     1   0 11:51AM ??         0:00.04 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+    0   208     1   0 11:51AM ??         0:00.05 /usr/libexec/colorsync.displayservices
+    0   209     1   0 11:51AM ??         0:00.03 /usr/libexec/colorsyncd
+    0   215     1   0 11:51AM ??         0:00.13 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+    0   218     1   0 11:51AM ??         0:00.03 /usr/libexec/bootinstalld
+    0   221     1   0 11:51AM ??         0:08.21 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+    0   231     1   0 11:51AM ??         0:00.05 /System/Library/CoreServices/sharedfilelistd
+    0   232     1   0 11:51AM ??         0:00.07 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+    0   236     1   0 11:51AM ??         0:00.13 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+    0   237     1   0 11:51AM ??         0:00.03 /usr/sbin/distnoted agent
+    0   238     1   0 11:51AM ??         0:00.03 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+    0   254     1   0 11:51AM ??         0:00.02 /opt/cisco/amp/ampcreport --no-rate-limit --no-upload-gzip --database=/Library/Application Support/Cisco/AMP for Endpoints Connector/ch --annotation=module=mac_agent --annotation=version=1.9.0.671 --handshake-fd=11
+    0   255    61   0 11:51AM ??         0:51.35 /opt/cisco/amp/ampscansvc -cl3 14
+  258   257     1   0 11:51AM ??         0:00.05 /usr/libexec/captiveagent
+    0   258     1   0 11:51AM ??         0:00.01 /usr/libexec/smd
+  263   260     1   0 11:51AM ??         0:00.11 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+    0   261     1   0 11:51AM ??         0:00.10 /usr/libexec/sysmond
+    0   262    52   0 11:51AM ??         0:00.06 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+    0   263     1   0 11:51AM ??         0:00.01 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+  262   264     1   0 11:51AM ??         0:00.04 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+    0   265     1   0 11:51AM ??         0:00.61 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+    0   266     1   0 11:51AM ??         0:00.05 /usr/sbin/systemsoundserverd
+    0   281     1   0 11:52AM ??         0:00.01 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+    0   284     1   0 11:52AM ??         0:00.01 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+    0   285     1   0 11:52AM ??         0:00.36 /System/Library/PrivateFrameworks/FamilyControls.framework/Resources/parentalcontrolsd
+    0   292     1   0 11:52AM ??         0:00.04 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+    0   293     1   0 11:52AM ??         0:00.08 /usr/libexec/securityd_service
+476547026   299     1   0 11:52AM ??         0:01.13 /usr/sbin/cfprefsd agent
+476547026   300     1   0 11:52AM ??         0:00.64 /usr/libexec/UserEventAgent (Aqua)
+476547026   302     1   0 11:52AM ??         0:00.37 /usr/sbin/distnoted agent
+476547026   303     1   0 11:52AM ??         0:00.20 /usr/sbin/universalaccessd launchd -s
+476547026   306     1   0 11:52AM ??         0:00.36 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+476547026   307     1   0 11:52AM ??         0:00.22 /usr/libexec/lsd
+476547026   308     1   0 11:52AM ??         0:02.17 /usr/libexec/trustd --agent
+476547026   309     1   0 11:52AM ??         1:05.43 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome -psn_0_53261
+476547026   312     1   0 11:52AM ??         0:00.24 /usr/libexec/secd
+476547026   313     1   0 11:52AM ??         0:00.16 /System/Library/CoreServices/sharedfilelistd
+476547026   314     1   0 11:52AM ??         0:00.21 /usr/libexec/secinitd
+476547026   315     1   0 11:52AM ??         2:12.33 /Applications/PyCharm.app/Contents/MacOS/pycharm -psn_0_61455
+476547026   316     1   0 11:52AM ??         0:00.07 /System/Library/CoreServices/backgroundtaskmanagementagent
+    0   317     1   0 11:52AM ??         0:00.06 /usr/sbin/WirelessRadioManagerd
+476547026   318     1   0 11:52AM ??         0:00.41 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+476547026   319     1   0 11:52AM ??         0:00.36 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+476547026   320     1   0 11:52AM ??         4:04.21 /Applications/IntelliJ IDEA.app/Contents/MacOS/idea -psn_0_65552
+476547026   321     1   0 11:52AM ??         0:00.04 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+476547026   323     1   0 11:52AM ??         0:01.11 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+476547026   324     1   0 11:52AM ??         0:00.44 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+476547026   325     1   0 11:52AM ??         0:08.74 /Applications/iTerm.app/Contents/MacOS/iTerm2 -psn_0_69649
+476547026   326     1   0 11:52AM ??         0:00.14 /usr/libexec/pboard
+476547026   327     1   0 11:52AM ??         0:07.60 /Applications/Slack.app/Contents/MacOS/Slack -psn_0_73746
+476547026   328     1   0 11:52AM ??         0:00.22 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+476547026   329     1   0 11:52AM ??         0:00.01 /Applications/iTunes.app/Contents/MacOS/iTunes -psn_0_77843
+476547026   330     1   0 11:52AM ??         0:00.08 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+476547026   331     1   0 11:52AM ??         0:00.28 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+476547026   332     1   0 11:52AM ??         0:00.23 /usr/libexec/nsurlsessiond
+476547026   333     1   0 11:52AM ??         0:00.31 /System/Library/CoreServices/talagent
+476547026   334     1   0 11:52AM ??         0:04.51 /Applications/Mail.app/Contents/MacOS/Mail -psn_0_81940
+476547026   335     1   0 11:52AM ??         0:00.39 /usr/libexec/nsurlstoraged
+476547026   336     1   0 11:52AM ??         0:02.51 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+  265   337     1   0 11:52AM ??         0:00.04 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+476547026   338     1   0 11:52AM ??         0:00.08 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+    0   340     1   0 11:52AM ??         0:00.04 /usr/sbin/spindump
+476547026   341     1   0 11:52AM ??         0:02.63 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+    0   342     1   0 11:52AM ??         0:00.05 /usr/sbin/wirelessproxd
+476547026   344     1   0 11:52AM ??         0:00.09 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+476547026   345     1   0 11:52AM ??         0:00.11 /usr/libexec/rapportd
+476547026   346     1   0 11:52AM ??         0:00.78 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  205   348     1   0 11:52AM ??         0:00.16 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+476547026   349     1   0 11:52AM ??         0:00.02 /usr/libexec/spindump_agent
+476547026   350     1   0 11:52AM ??         0:00.19 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+476547026   351     1   0 11:52AM ??         0:00.42 /usr/sbin/usernoted
+476547026   353     1   0 11:52AM ??         0:02.23 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+    0   356     1   0 11:52AM ??         0:00.04 /System/Library/CoreServices/SubmitDiagInfo server-init
+476547026   360     1   0 11:52AM ??         0:00.37 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+476547026   361     1   0 11:52AM ??         0:00.10 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+476547026   362     1   0 11:52AM ??         0:00.74 /usr/libexec/pkd
+476547026   364     1   0 11:52AM ??         0:01.36 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+  247   365     1   0 11:52AM ??         0:00.06 /usr/libexec/gamecontrollerd
+476547026   368     1   0 11:52AM ??         0:00.03 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Framework.framework/Helpers/crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/nadav.v/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/nadav.v/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=73.0.3683.103 --handshake-fd=8
+476547026   369     1   0 11:52AM ??         0:02.76 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+  205   371     1   0 11:52AM ??         0:00.06 /usr/libexec/secinitd
+476547026   373     1   0 11:52AM ??         0:00.09 /usr/libexec/networkserviceproxy
+476547026   374     1   0 11:52AM ??         0:00.02 /System/Library/CoreServices/APFSUserAgent
+    0   375     1   0 11:52AM ??         0:00.02 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+476547026   376     1   0 11:52AM ??         0:00.18 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+476547026   380     1   0 11:52AM ??         0:00.28 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+476547026   384     1   0 11:52AM ??         0:00.17 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+476547026   385     1   0 11:52AM ??         0:00.38 /usr/libexec/sharingd
+476547026   387   309   0 11:52AM ??         0:35.62 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=gpu-process --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAADgBAAAmAAAAMAEAAAAAAAA4AQAAAAAAAEABAAAAAAAASAEAAAAAAABQAQAAAAAAAFgBAAAAAAAAYAEAAAAAAABoAQAAAAAAAHABAAAAAAAAeAEAAAAAAACAAQAAAAAAAIgBAAAAAAAAkAEAAAAAAACYAQAAAAAAAKABAAAAAAAAqAEAAAAAAACwAQAAAAAAALgBAAAAAAAAwAEAAAAAAADIAQAAAAAAANABAAAAAAAA2AEAAAAAAADgAQAAAAAAAOgBAAAAAAAA8AEAAAAAAAD4AQAAAAAAAAACAAAAAAAACAIAAAAAAAAQAgAAAAAAABgCAAAAAAAAIAIAAAAAAAAoAgAAAAAAADACAAAAAAAAOAIAAAAAAABAAgAAAAAAAEgCAAAAAAAAUAIAAAAAAABYAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAGAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAQAAAAYAAAAQAAAAAAAAAAEAAAAHAAAAEAAAAAAAAAABAAAACAAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA4AAAAQAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAEAAAABgAAABAAAAAAAAAABAAAAAcAAAAQAAAAAAAAAAQAAAAIAAAAEAAAAAAAAAAEAAAACgAAABAAAAAAAAAABAAAAAsAAAAQAAAAAAAAAAQAAAANAAAAEAAAAAAAAAAEAAAADgAAABAAAAAAAAAABgAAAAAAAAAQAAAAAAAAAAYAAAAGAAAAEAAAAAAAAAAGAAAACAAAABAAAAAAAAAABgAAAAoAAAAQAAAAAAAAAAYAAAALAAAAEAAAAAAAAAAGAAAADQAAABAAAAAAAAAABgAAAA4AAAAQAAAAAAAAAAcAAAAAAAAAEAAAAAAAAAAHAAAABgAAABAAAAAAAAAABwAAAAgAAAAQAAAAAAAAAAcAAAAKAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAA0AAAAQAAAAAAAAAAcAAAAOAAAA --service-request-channel-token=4500408864434174223
+476547026   390     1   0 11:52AM ??         0:00.03 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Framework.framework/Versions/A/XPCServices/AlertNotificationService.xpc/Contents/MacOS/AlertNotificationService
+476547026   391   309   0 11:52AM ??         0:08.85 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --lang=en-US --service-sandbox-type=network --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --service-request-channel-token=15736820651601567813
+476547026   392     1   0 11:52AM ??         0:00.06 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+476547026   394     1   0 11:52AM ??         0:00.12 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  205   395     1   0 11:52AM ??         0:00.04 /usr/sbin/cfprefsd agent
+476547026   396     1   0 11:52AM ??         0:00.02 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+    0   397     1   0 11:52AM ??         0:00.03 /usr/sbin/filecoordinationd
+476547026   398     1   0 11:52AM ??         0:00.12 /usr/libexec/fmfd
+476547026   401     1   0 11:52AM ??         0:00.58 /System/Library/CoreServices/iconservicesagent
+476547026   402     1   0 11:52AM ??         0:00.28 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+476547026   403     1   0 11:52AM ??         0:00.09 /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/MacOS/ARDAgent
+476547026   404     1   0 11:52AM ??         0:00.07 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+476547026   406     1   0 11:52AM ??         0:00.06 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+  205   407     1   0 11:53AM ??         0:00.06 /usr/libexec/trustd --agent
+476547026   408     1   0 11:53AM ??         0:00.15 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+476547026   409     1   0 11:53AM ??         0:00.03 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+476547026   410     1   0 11:53AM ??         0:00.88 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+476547026   414   309   0 11:53AM ??         0:03.98 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --service-pipe-token=7762795405184465210 --lang=en-US --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=7762795405184465210 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --seatbelt-client=95
+476547026   417     1   0 11:53AM ??         0:00.03 /System/Library/CoreServices/NotificationCenter.app/Contents/XPCServices/com.apple.notificationcenterui.WeatherSummary.xpc/Contents/MacOS/com.apple.notificationcenterui.WeatherSummary
+    0   419     1   0 11:53AM ??         0:00.08 /usr/libexec/taskgated
+    0   420     1   0 11:53AM ??         0:00.07 /usr/libexec/findmydeviced
+476547026   422     1   0 11:53AM ??         0:00.31 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/atsd
+476547026   427     1   0 11:53AM ??         0:00.41 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+476547026   430     1   0 11:53AM ??         0:01.15 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+476547026   431     1   0 11:53AM ??         0:00.04 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+476547026   432     1   0 11:53AM ??         0:00.35 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+476547026   437     1   0 11:53AM ??         0:00.11 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+476547026   438     1   0 11:53AM ??         0:00.08 /System/Library/CoreServices/pbs
+476547026   440   327   0 11:53AM ??         0:01.51 /Applications/Slack.app/Contents/Frameworks/Slack Helper.app/Contents/MacOS/Slack Helper --type=gpu-process --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAADgBAAAmAAAAMAEAAAAAAAA4AQAAAAAAAEABAAAAAAAASAEAAAAAAABQAQAAAAAAAFgBAAAAAAAAYAEAAAAAAABoAQAAAAAAAHABAAAAAAAAeAEAAAAAAACAAQAAAAAAAIgBAAAAAAAAkAEAAAAAAACYAQAAAAAAAKABAAAAAAAAqAEAAAAAAACwAQAAAAAAALgBAAAAAAAAwAEAAAAAAADIAQAAAAAAANABAAAAAAAA2AEAAAAAAADgAQAAAAAAAOgBAAAAAAAA8AEAAAAAAAD4AQAAAAAAAAACAAAAAAAACAIAAAAAAAAQAgAAAAAAABgCAAAAAAAAIAIAAAAAAAAoAgAAAAAAADACAAAAAAAAOAIAAAAAAABAAgAAAAAAAEgCAAAAAAAAUAIAAAAAAABYAgAAAAAAABAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAAAAAAALAAAAEAAAAAAAAAAAAAAADAAAABAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAAAAAAAPAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAAAAAAATAAAAEAAAAAAAAAABAAAABQAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAEAAAAQAAAAEAAAAAAAAAABAAAAEgAAABAAAAAAAAAAAQAAABMAAAAQAAAAAAAAAAMAAAAFAAAAEAAAAAAAAAADAAAACwAAABAAAAAAAAAAAwAAAAwAAAAQAAAAAAAAAAMAAAANAAAAEAAAAAAAAAADAAAADwAAABAAAAAAAAAAAwAAABAAAAAQAAAAAAAAAAMAAAASAAAAEAAAAAAAAAADAAAAEwAAABAAAAAAAAAABQAAAAUAAAAQAAAAAAAAAAUAAAALAAAAEAAAAAAAAAAFAAAADQAAABAAAAAAAAAABQAAAA8AAAAQAAAAAAAAAAUAAAAQAAAAEAAAAAAAAAAFAAAAEgAAABAAAAAAAAAABQAAABMAAAAQAAAAAAAAAAYAAAAFAAAAEAAAAAAAAAAGAAAACwAAABAAAAAAAAAABgAAAA0AAAAQAAAAAAAAAAYAAAAPAAAAEAAAAAAAAAAGAAAAEAAAABAAAAAAAAAABgAAABIAAAAQAAAAAAAAAAYAAAATAAAA --service-request-channel-token=EECF2D74B58FA99DE13391816F6F7402
+476547026   442     1   0 11:53AM ??         0:00.23 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+476547026   445     1   0 11:53AM ??         0:00.43 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+476547026   457     1   0 11:53AM ??         0:00.31 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+476547026   458     1   0 11:53AM ??         0:00.03 SafeEjectGPUAgent
+476547026   460     1   0 11:53AM ??         0:00.09 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+476547026   461     1   0 11:53AM ??         0:00.03 /Applications/Slack.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/3j/lrgmhb2j1cl8j6h7hcht6scmf6g1yk/T/Slack Crashes --metrics-dir=/var/folders/3j/lrgmhb2j1cl8j6h7hcht6scmf6g1yk/T/Slack Crashes --url=https://slack.com/apps/breakpad?instanceUid=1ffbd3d7-37e9-54f5-96e8-2b3d9ae15ed6&version=3.4.0&channel=prod --handshake-fd=53
+476547026   462     1   0 11:53AM ??         0:00.07 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+476547026   463   327   0 11:53AM ??         0:02.28 /Applications/Slack.app/Contents/Frameworks/Slack Helper.app/Contents/MacOS/Slack Helper --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --service-pipe-token=C9F9D5F6E32C6D34D7573B497419C7B0 --lang=en-US --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/Applications/Slack.app/Contents/Resources/app.asar --node-integration=true --webview-tag=false --no-sandbox --preload=/Applications/Slack.app/Contents/Resources/app.asar/src/static/index.js --background-color=#FFFFFF --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --enable-compositor-image-animations --service-request-channel-token=C9F9D5F6E32C6D34D7573B497419C7B0 --renderer-client-id=6 {"loadSettings":{"chromeDriver":false,"devEnv":null,"devMode":false,"invokedOnStartup":false,"logFile":null,"resourcePath":"/Applications/Slack.app/Contents/Resources/app.asar","rxLogging":false,"version":"3.4.0","webappSrcPath":false,"sessionId":"MWZmYmQzZDctMzdlOS01NGY1LTk2ZTgtMmIzZDlhZTE1ZWQ2XzE1NTY1Mjc5ODI5MDU=","appVersion":"3.4.0","isAeroGlassEnabled":false,"isDevMode":false,"isGpuCompositionAvailable":true,"isTitleBarHidden":false,"launchOnStartup":false,"openDevToolsOnStart":false,"platformVersion":{"major":18,"minor":2,"build":0},"pretendNotReallyWindows10":false,"releaseChannel":"prod","versionName":"Eye of the Tiger","webappParams":null,"webPreferences":{"webviewTag":false,"contextIsolation":false,"nodeIntegration":true,"preload":"/Applications/Slack.app/Contents/Resources/app.asar/src/static/index.js"},"title":"Slack","autoHideMenuBar":false,"show":false,"windowType":"main","bootstrapScript":"/Applications/Slack.app/Contents/Resources/app.asar/src/renderer/main.tsx","acceptFirstMouse":false,"backgroundColor":"#FFFFFF","minHeight":400,"minWidth":600,"type":"main","options":{"chromeDriver":false,"devEnv":null,"devMode":false,"invokedOnStartup":false,"logFile":null,"resourcePath":"/Applications/Slack.app/Contents/Resources/app.asar","rxLogging":false,"version":"3.4.0","webappSrcPath":false,"sessionId":"MWZmYmQzZDctMzdlOS01NGY1LTk2ZTgtMmIzZDlhZTE1ZWQ2XzE1NTY1Mjc5ODI5MDU=","appVersion":"3.4.0","isAeroGlassEnabled":false,"isDevMode":false,"isGpuCompositionAvailable":true,"isTitleBarHidden":false,"launchOnStartup":false,"openDevToolsOnStart":false,"platformVersion":{"major":18,"minor":2,"build":0},"pretendNotReallyWindows10":false,"releaseChannel":"prod","versionName":"Eye of the Tiger","webappParams":null}},"crashReporterOpts":{"productName":"Slack","companyName":"Slack Technologies","uploadToServer":true,"submitURL":"https://slack.com/apps/breakpad?instanceUid=1ffbd3d7-37e9-54f5-96e8-2b3d9ae15ed6","extra":{"instanceUid":"1ffbd3d7-37e9-54f5-96e8-2b3d9ae15ed6","sessionId":"MWZmYmQzZDctMzdlOS01NGY1LTk2ZTgtMmIzZDlhZTE1ZWQ2XzE1NTY1Mjc5ODI5MDU="}},"perfTimer":{"mainPid":327,"BOOT":[87,969880827],"numTeamsAtLaunch":1,"SHELL":[88,816524424],"APP_READY":[92,551420131],"MAIN_WINDOW_CREATING":[96,708796137]},"identifier":"slack_preload_metadata_arguments"}
+476547026   467     1   0 11:53AM ??         0:00.05 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+476547026   474     1   0 11:53AM ??         0:00.04 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+476547026   477     1   0 11:53AM ??         0:00.09 /usr/libexec/dmd
+476547026   478     1   0 11:53AM ??         0:00.04 /bin/sh /usr/local/opt/mysql/bin/mysqld_safe --datadir=/usr/local/var/mysql
+476547026   479     1   0 11:53AM ??         0:00.14 /System/Library/Image Capture/Support/icdd
+476547026   481     1   0 11:53AM ??         0:03.08 /Applications/Endpoint Security VPN.app/Contents/MacOS/Endpoint_Security_VPN
+476547026   482     1   0 11:53AM ??         0:00.12 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+476547026   483     1   0 11:53AM ??         0:00.16 /usr/libexec/knowledge-agent
+476547026   484     1   0 11:53AM ??         0:00.08 /System/Library/CoreServices/cloudpaird
+476547026   485     1   0 11:53AM ??         0:00.94 /Applications/Cisco AMP/AMP for Endpoints Connector.app/Contents/MacOS/AMP for Endpoints Connector
+476547026   486     1   0 11:53AM ??         0:00.13 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+476547026   487     1   0 11:53AM ??         0:00.08 /System/Library/CoreServices/diagnostics_agent
+476547026   488     1   0 11:53AM ??         0:00.20 /usr/libexec/adprivacyd
+476547026   489     1   0 11:53AM ??         0:00.70 /Applications/Intelligent Hub.app/Contents/MacOS/Intelligent Hub
+    0   491     1   0 11:53AM ??         0:00.03 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+476547026   492     1   0 11:53AM ??         0:00.04 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService
+476547026   494     1   0 11:53AM ??         0:00.07 /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd
+476547026   496     1   0 11:53AM ??         0:00.15 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+476547026   502     1   0 11:53AM ??         0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+476547026   514     1   0 11:53AM ??         0:01.22 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+476547026   516     1   0 11:53AM ??         0:00.22 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+476547026   524     1   0 11:53AM ??         0:00.03 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+    0   527     1   0 11:53AM ??         0:00.11 /System/Library/CoreServices/iconservicesagent runAsRoot
+476547026   535     1   0 11:53AM ??         0:00.06 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+476547026   540     1   0 11:53AM ??         0:00.06 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+476547026   541     1   0 11:53AM ??         0:00.03 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+476547026   545     1   0 11:53AM ??         0:00.07 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+476547026   549     1   0 11:53AM ??         0:00.13 /System/Library/CoreServices/RemoteManagement/SSMenuAgent.app/Contents/MacOS/SSMenuAgent
+476547026   559   315   0 11:53AM ??         0:00.16 /Applications/PyCharm.app/Contents/bin/fsnotifier
+476547026   617     1   0 11:53AM ??         0:00.07 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent
+  200   627     1   0 11:53AM ??         0:01.25 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+476547026   628   478   0 11:53AM ??         0:06.07 /usr/local/opt/mysql/bin/mysqld --basedir=/usr/local/opt/mysql --datadir=/usr/local/var/mysql --plugin-dir=/usr/local/opt/mysql/lib/plugin --log-error=nadav-v-mbp.err --pid-file=nadav-v-mbp.pid
+    0   632     1   0 11:53AM ??         0:00.03 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+476547026   649   309   0 11:53AM ??         0:08.11 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --service-pipe-token=12265992986297134831 --lang=en-US --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12265992986297134831 --renderer-client-id=10 --no-v8-untrusted-code-mitigations --seatbelt-client=170
+476547026   661     1   0 11:53AM ??         0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+  222   663     1   0 11:53AM ??         0:00.04 /usr/sbin/netbiosd
+476547026   665   320   0 11:53AM ??         0:00.24 /Applications/IntelliJ IDEA.app/Contents/bin/fsnotifier
+476547026   675     1   0 11:53AM ??         0:01.00 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  257   676     1   0 11:53AM ??         0:01.05 /usr/libexec/DataDetectorsSourceAccess
+476547026   734   309   0 11:54AM ??         0:18.40 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --service-pipe-token=12550622013112983616 --lang=en-US --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12550622013112983616 --renderer-client-id=27 --no-v8-untrusted-code-mitigations --seatbelt-client=184
+476547026   739   320   0 11:54AM ??         0:05.00 /Applications/IntelliJ IDEA.app/Contents/jdk/Contents/Home/jre/bin/java -Djava.awt.headless=true -Didea.version==2018.3.2 -Xmx768m -Didea.maven.embedder.version=3.3.9 -Dfile.encoding=UTF-8 -classpath /Applications/IntelliJ IDEA.app/Contents/lib/resources_en.jar:/Applications/IntelliJ IDEA.app/Contents/lib/log4j.jar:/Applications/IntelliJ IDEA.app/Contents/lib/util.jar:/Applications/IntelliJ IDEA.app/Contents/lib/annotations.jar:/Applications/IntelliJ IDEA.app/Contents/lib/jdom.jar:/Applications/IntelliJ IDEA.app/Contents/lib/trove4j.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/lucene-core-2.4.1.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-server-api.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3-server-common.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3-server-lib/nexus-indexer-artifact-1.0.1.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3-server-lib/nexus-indexer-3.0.4.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3-server-lib/archetype-catalog-2.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3-server-lib/archetype-common-2.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3-server-lib/maven-dependency-tree-1.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3-server-impl.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/aether-connector-basic-1.0.2.v20150114.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/aether-api-1.0.2.v20150114.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/plexus-utils-3.0.22.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/plexus-interpolation-1.21.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/aether-util-1.0.2.v20150114.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-model-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/aopalliance-1.0.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-settings-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/plexus-cipher-1.7.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-embedder-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-model-builder-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/guava-18.0.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/slf4j-api-1.7.5.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/plexus-sec-dispatcher-1.3.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/cdi-api-1.0.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-core-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/commons-cli-1.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/guice-4.0-no_aop.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/aether-impl-1.0.2.v20150114.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-builder-support-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/wagon-http-shared-2.10.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/aether-transport-wagon-1.0.2.v20150114.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/jsoup-1.7.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/commons-io-2.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/wagon-http-2.10-shaded.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-settings-builder-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/wagon-provider-api-2.10.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/wagon-file-2.10.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-compat-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/aether-spi-1.0.2.v20150114.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/org.eclipse.sisu.inject-0.3.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-plugin-api-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/slf4j-simple-1.7.5.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/plexus-component-annotations-1.6.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-repository-metadata-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/commons-lang-2.6.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/org.eclipse.sisu.plexus-0.3.2.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/commons-lang3-3.4.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/javax.inject-1.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-aether-provider-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/jsr250-api-1.0.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/lib/maven-artifact-3.3.9.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar org.jetbrains.idea.maven.server.RemoteMavenServer
+476547026   751     1   0 11:54AM ??         0:00.05 /usr/libexec/videosubscriptionsd
+476547026   762   309   0 11:54AM ??         0:00.43 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --service-pipe-token=12406437342788343703 --lang=en-US --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12406437342788343703 --renderer-client-id=31 --no-v8-untrusted-code-mitigations --seatbelt-client=189
+    0   796     1   0 11:54AM ??         0:00.22 /Library/Application Support/AirWatch/AWRemoteManagementDaemon
+    0   803     1   0 11:54AM ??         0:00.23 /Library/Application Support/AirWatch/AWRemoteTunnelAgent
+476547026   853     1   0 11:54AM ??         0:00.06 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+476547026   855     1   0 11:54AM ??         0:00.11 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+   89   870     1   0 11:55AM ??         0:00.17 /usr/libexec/trustd --agent
+476547026   872     1   0 11:55AM ??         0:00.65 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+476547026   878     1   0 11:55AM ??         0:00.13 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+    0   880     1   0 11:55AM ??         0:00.07 /usr/libexec/dmd
+476547026   881   327   0 11:55AM ??         0:10.49 /Applications/Slack.app/Contents/Frameworks/Slack Helper.app/Contents/MacOS/Slack Helper --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --service-pipe-token=764F6DA6740E9BCEDD6797C04C5661FA --lang=en-US --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/Applications/Slack.app/Contents/Resources/app.asar --enable-experimental-web-platform-features --node-integration=false --webview-tag=false --no-sandbox --preload=/Applications/Slack.app/Contents/Resources/app.asar/src/static/ssb-interop.js --background-color=#fff --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --enable-compositor-image-animations --service-request-channel-token=764F6DA6740E9BCEDD6797C04C5661FA --renderer-client-id=10 {"loadSettings":{"chromeDriver":false,"devEnv":null,"devMode":false,"invokedOnStartup":false,"logFile":null,"resourcePath":"/Applications/Slack.app/Contents/Resources/app.asar","rxLogging":false,"version":"3.4.0","webappSrcPath":false,"sessionId":"MWZmYmQzZDctMzdlOS01NGY1LTk2ZTgtMmIzZDlhZTE1ZWQ2XzE1NTY1Mjc5ODI5MDU=","appVersion":"3.4.0","isAeroGlassEnabled":false,"isDevMode":false,"isGpuCompositionAvailable":true,"isTitleBarHidden":false,"launchOnStartup":false,"openDevToolsOnStart":false,"platformVersion":{"major":18,"minor":2,"build":0},"pretendNotReallyWindows10":false,"releaseChannel":"prod","versionName":"Eye of the Tiger","webappParams":null,"windowType":"webapp","subType":"T0255EC3D-preload"},"crashReporterOpts":{"productName":"Slack","companyName":"Slack Technologies","uploadToServer":true,"submitURL":"https://slack.com/apps/breakpad?instanceUid=1ffbd3d7-37e9-54f5-96e8-2b3d9ae15ed6","extra":{"instanceUid":"1ffbd3d7-37e9-54f5-96e8-2b3d9ae15ed6","sessionId":"MWZmYmQzZDctMzdlOS01NGY1LTk2ZTgtMmIzZDlhZTE1ZWQ2XzE1NTY1Mjc5ODI5MDU="}},"perfTimer":{"mainPid":327,"BOOT":[87,969880827],"numTeamsAtLaunch":1,"SHELL":[88,816524424],"APP_READY":[92,551420131],"MAIN_WINDOW_CREATING":[96,708796137],"MAIN_WINDOW_CREATED":[96,742322355]},"identifier":"slack_preload_metadata_arguments","teamId":"T0255EC3D"}
+476547026   893     1   0 11:55AM ??         0:00.96 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+476547026   894     1   0 11:55AM ??         0:00.07 /usr/libexec/keyboardservicesd
+476547026   904   309   0 11:55AM ??         0:12.85 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --service-pipe-token=2767563677851652059 --lang=en-US --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=2767563677851652059 --renderer-client-id=39 --no-v8-untrusted-code-mitigations --seatbelt-client=117
+    0   909     1   0 11:56AM ??         0:00.02 /System/Library/CoreServices/ReportCrash daemon
+476547026   915     1   0 11:56AM ??         0:00.87 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026   918     1   0 11:56AM ??         0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026   920     1   0 11:56AM ??         0:01.01 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026   921     1   0 11:56AM ??         0:01.29 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026   922     1   0 11:56AM ??         0:00.75 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+   89   924     1   0 11:56AM ??         0:00.12 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+   89   925     1   0 11:56AM ??         0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+   89   926     1   0 11:56AM ??         0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+   89   927     1   0 11:56AM ??         0:00.11 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+   89   928     1   0 11:56AM ??         0:00.13 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+   89   929     1   0 11:56AM ??         0:00.02 /usr/sbin/distnoted agent
+476547026   931     1   0 11:56AM ??         0:00.20 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+476547026   932     1   0 11:56AM ??         0:00.18 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026   933     1   0 11:56AM ??         0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026   934     1   0 11:56AM ??         0:00.29 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+   89   935     1   0 11:56AM ??         0:00.11 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026   936     1   0 11:56AM ??         0:00.16 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker-mail -c MDSImporterWorker -m com.apple.mdworker.mail
+476547026   948     1   0 11:56AM ??         0:00.16 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+476547026   949     1   0 11:56AM ??         0:00.24 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+476547026   953     1   0 11:56AM ??         0:00.05 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+476547026   954     1   0 11:56AM ??         0:00.04 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+476547026   957     1   0 11:56AM ??         0:00.30 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+476547026   959     1   0 11:56AM ??         0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+    0   962     1   0 11:56AM ??         0:00.06 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd daemon
+476547026   967     1   0 11:57AM ??         0:00.20 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+476547026   984   309   0 11:58AM ??         0:00.09 /Applications/Google Chrome.app/Contents/Versions/73.0.3683.103/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=0,17872178469823538468,7508612531977051686,131072 --service-pipe-token=259185270191553111 --lang=en-US --metrics-client-id=4d7f32ad-4e16-4278-9b85-941a89922974 --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=259185270191553111 --renderer-client-id=45 --no-v8-untrusted-code-mitigations --seatbelt-client=191
+476547026   994     1   0 11:58AM ??         0:00.11 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+476547026   995     1   0 11:58AM ??         0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+    0   996     1   0 11:58AM ??         0:00.04 /usr/libexec/dprivacyd
+476547026  1001     1   0 11:58AM ??         0:00.11 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/reversetemplated
+476547026  1002     1   0 11:58AM ??         0:00.02 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+476547026  1003     1   0 11:58AM ??         0:00.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+476547026  1004     1   0 11:58AM ??         0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+    0  1060     1   0 12:02PM ??         0:00.62 /System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kcm --launchd
+    0  1062     1   0 12:03PM ??         0:00.02 /usr/libexec/diskmanagementd
+476547026   444   325   0 11:53AM ttys000    0:00.05 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server /usr/bin/login -fpl nadav.v /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+    0   447   444   0 11:53AM ttys000    0:00.04 /usr/bin/login -fpl nadav.v /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+476547026   465   447   0 11:53AM ttys000    0:00.08 -bash
+    0  1065   465   0 12:03PM ttys000    0:00.00 ps -ef
+476547026   450   325   0 11:53AM ttys001    0:00.05 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server /usr/bin/login -fpl nadav.v /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+    0   454   450   0 11:53AM ttys001    0:00.03 /usr/bin/login -fpl nadav.v /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+476547026   466   454   0 11:53AM ttys001    0:00.06 -bash
+476547026   455   325   0 11:53AM ttys002    0:00.04 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server /usr/bin/login -fpl nadav.v /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+    0   464   455   0 11:53AM ttys002    0:00.03 /usr/bin/login -fpl nadav.v /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+476547026   515   464   0 11:53AM ttys002    0:00.06 -bash
