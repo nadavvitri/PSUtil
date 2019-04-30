@@ -2,10 +2,9 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
+import exceptions.*;
 
 public class PSParser{
 
@@ -49,12 +48,12 @@ public class PSParser{
         this.values = line.trim().split("\\s+");
     }
 
-    public String getValue(String columnName) throws IllegalArgumentException{
+    public String getValue(String columnName) throws InvalidColumnException{
         Integer index;
         if ((index = this.headerMap.get(columnName)) != null){
             return this.values[index];
         }
-        throw new IllegalArgumentException(columnName + " not found!");
+        throw new InvalidColumnException(columnName);
     }
 
     public static void main(String[] args) {
