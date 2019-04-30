@@ -1,23 +1,23 @@
+package tree;
+
 import exceptions.InvalidColumnException;
+import parser.PSParser;
 import java.util.ArrayList;
 
 public class PSTree {
 
     private ArrayList<PSTreeNode> roots = new ArrayList<>();
-    private final String fileName;
-    private final String[] columnsNames = new String[] {"UID", "PID", "PPID", "C", "STIME", "TTY", "TIME", "CMD"};
     private PSParser psParser;
 
     public PSTree(String fileName){
-        this.fileName = fileName;
-        this.psParser = new PSParser(this.fileName);
+        this.psParser = new PSParser(fileName);
     }
 
     private PSTreeNode findParentInRoot(PSTreeNode root, String ppid){
         if (root == null){
             return null;
         }
-        if (root.getPid() == ppid){
+        if (root.getPid().equals(ppid)){
             return root;
         }
         PSTreeNode node = null;
@@ -41,9 +41,10 @@ public class PSTree {
     }
 
     private void addNode(PSTreeNode node){
-        PSTreeNode parent = getParent(node.getPid());
+        PSTreeNode parent = getParent(node.getPpid());
         if (parent != null){
             node.setParent(parent);
+            parent.addChild(node);
         }
         else {
             this.roots.add(node);
@@ -68,7 +69,24 @@ public class PSTree {
         }
     }
 
-    public static void main(String[] args) {
-
+    private String rootToString(PSTreeNode root, String tab){
+        StringBuilder string = new StringBuilder();
+        if (root != null){
+            string.append(tab).append(root.toString());
+            for (PSTreeNode child: root.getChildes()){
+                String level = "----";
+                string.append(rootToString(child, tab + level));
+            }
+        }
+        return string.toString();
     }
+
+    public String toString(){
+        StringBuilder string = new StringBuilder();
+        for (PSTreeNode root: this.roots){
+            string.append(rootToString(root, ""));
+        }
+        return string.toString();
+    }
+
 }

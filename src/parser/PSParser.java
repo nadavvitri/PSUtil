@@ -1,3 +1,5 @@
+package parser;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -54,13 +56,5 @@ public class PSParser{
             return this.values[index];
         }
         throw new InvalidColumnException(columnName);
-    }
-
-    public static void main(String[] args) {
-        String hostName = System.getProperty("user.home");
-        PSParser psParser = new PSParser(hostName + "/PSUtil/src/ps.txt");
-        String line = psParser.getNextLine();
-        psParser.parseLine(line);
-        System.out.println(psParser.getValue("CMD"));
     }
 }

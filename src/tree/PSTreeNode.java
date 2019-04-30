@@ -1,3 +1,5 @@
+package tree;
+
 import java.util.ArrayList;
 
 public class PSTreeNode {
@@ -21,6 +23,10 @@ public class PSTreeNode {
         return this.pid;
     }
 
+    public String getPpid() {
+        return this.ppid;
+    }
+
     public void addChild(PSTreeNode node){
         this.childes.add(node);
     }
@@ -35,5 +41,9 @@ public class PSTreeNode {
 
     public ArrayList<PSTreeNode> getChildes() {
         return this.childes;
+    }
+
+    public String toString(){
+        return "pid: " + this.pid + ", ppid: " + this.ppid + ", cmd: " + this.cmd + "\n";
     }
 }
