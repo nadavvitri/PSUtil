@@ -3,6 +3,7 @@ package tree;
 import exceptions.InvalidColumnException;
 import parser.PSParser;
 import java.util.ArrayList;
+import java.util.function.Function;
 
 public class PSTree {
 
@@ -13,17 +14,16 @@ public class PSTree {
         this.psParser = new PSParser(fileName);
     }
 
-    private PSTreeNode findParentInRoot(PSTreeNode root, String ppid){
+    private PSTreeNode dfs(PSTreeNode root, Function<PSTreeNode, String> method, String valueToSearch){
         if (root == null){
             return null;
         }
-        if (root.getPid().equals(ppid)){
+        if (method.apply(root).equals(valueToSearch)){
             return root;
         }
         PSTreeNode node = null;
         for (PSTreeNode child: root.getChildes()) {
-            findParentInRoot(child, ppid);
-            if ((node = findParentInRoot(child, ppid)) != null){
+            if ((node = dfs(child, method, valueToSearch)) != null){
                 break;
             }
         }
@@ -33,7 +33,7 @@ public class PSTree {
     private PSTreeNode getParent(String ppid){
         PSTreeNode node = null;
         for (PSTreeNode root: this.roots) {
-            if ((node = findParentInRoot(root, ppid)) != null){
+            if ((node = dfs(root, PSTreeNode::getPid, ppid)) != null){
                 break;
             }
         }
@@ -69,13 +69,13 @@ public class PSTree {
         }
     }
 
-    private String rootToString(PSTreeNode root, String tab){
+    private String printTreeByRoot(PSTreeNode root, String tab){
         StringBuilder string = new StringBuilder();
         if (root != null){
             string.append(tab).append(root.toString());
             for (PSTreeNode child: root.getChildes()){
                 String level = "----";
-                string.append(rootToString(child, tab + level));
+                string.append(printTreeByRoot(child, tab + level));
             }
         }
         return string.toString();
@@ -84,7 +84,7 @@ public class PSTree {
     public String toString(){
         StringBuilder string = new StringBuilder();
         for (PSTreeNode root: this.roots){
-            string.append(rootToString(root, ""));
+            string.append(printTreeByRoot(root, ""));
         }
         return string.toString();
     }
