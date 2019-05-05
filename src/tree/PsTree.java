@@ -1,28 +1,28 @@
 package tree;
 
 import exceptions.InvalidColumnException;
-import parser.PSParser;
+import parser.PsParser;
 import java.util.ArrayList;
 import java.util.function.Function;
 
-public class PSTree {
+public class PsTree {
 
-    private ArrayList<PSTreeNode> roots = new ArrayList<>();
-    private PSParser psParser;
+    private ArrayList<PsTreeNode> roots = new ArrayList<>();
+    private PsParser psParser;
 
-    public PSTree(String fileName){
-        this.psParser = new PSParser(fileName);
+    public PsTree(String fileName){
+        this.psParser = new PsParser(fileName);
     }
 
-    private PSTreeNode dfs(PSTreeNode root, Function<PSTreeNode, String> method, String valueToSearch){
+    private PsTreeNode dfs(PsTreeNode root, Function<PsTreeNode, String> method, String valueToSearch){
         if (root == null){
             return null;
         }
         if (method.apply(root).equals(valueToSearch)){
             return root;
         }
-        PSTreeNode node = null;
-        for (PSTreeNode child: root.getChildes()) {
+        PsTreeNode node = null;
+        for (PsTreeNode child: root.getChildes()) {
             if ((node = dfs(child, method, valueToSearch)) != null){
                 break;
             }
@@ -30,18 +30,18 @@ public class PSTree {
         return node;
     }
 
-    private PSTreeNode getParent(String ppid){
-        PSTreeNode node = null;
-        for (PSTreeNode root: this.roots) {
-            if ((node = dfs(root, PSTreeNode::getPid, ppid)) != null){
+    private PsTreeNode getParent(String ppid){
+        PsTreeNode node = null;
+        for (PsTreeNode root: this.roots) {
+            if ((node = dfs(root, PsTreeNode::getPid, ppid)) != null){
                 break;
             }
         }
         return node;
     }
 
-    private void addNode(PSTreeNode node){
-        PSTreeNode parent = getParent(node.getPpid());
+    private void addNode(PsTreeNode node){
+        PsTreeNode parent = getParent(node.getPpid());
         if (parent != null){
             node.setParent(parent);
             parent.addChild(node);
@@ -53,7 +53,7 @@ public class PSTree {
 
     public void generateTree() throws InvalidColumnException {
         String line;
-        PSTreeNode node;
+        PsTreeNode node;
         while ((line = this.psParser.getNextLine()) != null){
             psParser.parseLine(line);
             String UID = psParser.getValue("UID");
@@ -64,16 +64,16 @@ public class PSTree {
             String TTY = psParser.getValue("TTY");
             String TIME = psParser.getValue("TIME");
             String CMD = psParser.getValue("CMD");
-            node = new PSTreeNode(UID, PID, PPID, C, STIME, TTY, TIME, CMD);
+            node = new PsTreeNode(UID, PID, PPID, C, STIME, TTY, TIME, CMD);
             addNode(node);
         }
     }
 
-    private String printTreeByRoot(PSTreeNode root, String tab){
+    private String printTreeByRoot(PsTreeNode root, String tab){
         StringBuilder string = new StringBuilder();
         if (root != null){
             string.append(tab).append(root.toString());
-            for (PSTreeNode child: root.getChildes()){
+            for (PsTreeNode child: root.getChildes()){
                 String level = "----";
                 string.append(printTreeByRoot(child, tab + level));
             }
@@ -83,7 +83,7 @@ public class PSTree {
 
     public String toString(){
         StringBuilder string = new StringBuilder();
-        for (PSTreeNode root: this.roots){
+        for (PsTreeNode root: this.roots){
             string.append(printTreeByRoot(root, ""));
         }
         return string.toString();

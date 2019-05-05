@@ -1,19 +1,19 @@
 package main;
 
 import exceptions.InvalidColumnException;
-import tree.PSTree;
+import tree.PsTree;
 
-public class PSUtil {
+public class PsUtil {
 
-    private PSTree psTree;
+    private PsTree psTree;
 
-    public PSUtil(String fileName){
-        this.psTree = new PSTree(fileName);
+    public PsUtil(String fileName){
+        this.psTree = new PsTree(fileName);
     }
 
     public static void main(String[] args) {
         String hostName = System.getProperty("user.home");
-        PSUtil psUtil = new PSUtil(hostName + "/PSUtil/src/ps.txt");
+        PsUtil psUtil = new PsUtil(hostName + "/PsUtil/src/ps.txt");
         try {
             psUtil.psTree.generateTree();
             System.out.println(psUtil.psTree);

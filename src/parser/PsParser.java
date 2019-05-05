@@ -8,13 +8,13 @@ import java.util.HashMap;
 import java.util.Map;
 import exceptions.*;
 
-public class PSParser{
+public class PsParser {
 
     private BufferedReader reader;
     private Map<String, Integer> headerMap = new HashMap<>();
     private String[] values;
 
-    public PSParser(String fileName){
+    public PsParser(String fileName){
         try {
             FileReader fileReader = new FileReader(fileName);
             reader = new BufferedReader(fileReader);

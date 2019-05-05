@@ -2,13 +2,13 @@ package tree;
 
 import java.util.ArrayList;
 
-public class PSTreeNode {
+public class PsTreeNode {
 
     private String uid, pid, ppid, c, stime, tty, time, cmd;
-    private PSTreeNode parent = null;
-    private ArrayList<PSTreeNode> childes = new ArrayList<>();
+    private PsTreeNode parent = null;
+    private ArrayList<PsTreeNode> childes = new ArrayList<>();
 
-    public PSTreeNode(String uid, String pid, String ppid, String c, String sTime, String tty, String time, String cmd){
+    public PsTreeNode(String uid, String pid, String ppid, String c, String sTime, String tty, String time, String cmd){
         this.uid = uid;
         this.pid = pid;
         this.ppid = ppid;
@@ -27,19 +27,19 @@ public class PSTreeNode {
         return this.ppid;
     }
 
-    public void addChild(PSTreeNode node){
+    public void addChild(PsTreeNode node){
         this.childes.add(node);
     }
 
-    public void setParent(PSTreeNode parent){
+    public void setParent(PsTreeNode parent){
         this.parent = parent;
     }
 
-    public PSTreeNode getParent(){
+    public PsTreeNode getParent(){
         return this.parent;
     }
 
-    public ArrayList<PSTreeNode> getChildes() {
+    public ArrayList<PsTreeNode> getChildes() {
         return this.childes;
     }
 
