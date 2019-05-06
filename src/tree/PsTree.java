@@ -11,8 +11,6 @@ public class PsTree {
 
     private ArrayList<PsTreeNode> roots = new ArrayList<>();
     private PsParser psParser;
-    private final String RED_COLOR = "\033[31m";
-    private final String NORMAL_COLOR = "\033[0m";
 
     public PsTree(String fileName){
         this.psParser = new PsParser(fileName);
@@ -76,7 +74,9 @@ public class PsTree {
     private String colorSubString(String line, String subString){
         int from = line.indexOf(subString);
         int to = from + subString.length();
-        return line.substring(0, from) + this.RED_COLOR + line.substring(from, to) + this.NORMAL_COLOR + line.substring(to);
+        String NORMAL_COLOR = "\033[0m";
+        String RED_COLOR = "\033[31m";
+        return line.substring(0, from) + RED_COLOR + line.substring(from, to) + NORMAL_COLOR + line.substring(to);
     }
 
     public String grep(String subString){
