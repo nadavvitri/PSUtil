@@ -16,7 +16,8 @@ public class PsUtil {
         PsUtil psUtil = new PsUtil(hostName + "/PsUtil/src/ps.txt");
         try {
             psUtil.psTree.generateTree();
-            System.out.println(psUtil.psTree);
+            System.out.println(psUtil.psTree.grep("Applications"));
+
         }
         catch (InvalidColumnException e){
             System.err.println(e.getMessage());
